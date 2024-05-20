@@ -69,7 +69,7 @@ google.charts.setOnLoadCallback(() => {
       document.querySelector("#parse").textContent = "parse signal (no data) " + Date.now()
       return;
     }
-    if(data.length < 100) {
+    if(data.length < 30) {
       document.querySelector("#parse").textContent = "parse signal (few data) " + Date.now()
       return;
     }
